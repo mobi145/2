@@ -2,7 +2,7 @@ a=int(input("a:"))
 b=int(input("b:"))
 if a>b:
     print(f"number {b} is smallest")
-if a<b:
+elif a<b:
     print(f"number {a} is smallest")
 else:
     print(f"numbers are equal to each other")
