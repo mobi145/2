@@ -9,4 +9,4 @@ elif d == "total":
     f = e * b
     print(f"sum: {f:.2f}")
 else:
-    print("Неправильний вибір! Введіть one або total.")
+    print("інкорєкт")
