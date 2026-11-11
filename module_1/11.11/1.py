@@ -10,6 +10,7 @@ while True:
     print("5. ділення")
     print("6. піднесення до квадрата")
     print("7. віднесення від квадрата")
+    print("8. факторіал обох чисол")
     print("0. Вихід")
 
     choose = input("Оберіть пункт (0-7): ")
@@ -29,11 +30,16 @@ while True:
         v = calc.div(a, b)
         print(v)
     elif choose == '6':
-        v = calc.square(a, b)
-        print(v)
+        b = calc.square(a, b)
+        print(b)
     elif choose == '7':
-        v = calc.notsquare(a, b)
-        print(v)
+        n = calc.notsquare(a, b)
+        print(n)
+    elif choose == '8':
+        m = calc.factorial(a)
+        print(m)
+        m = calc.factorial(b)
+        print(m)
 
     elif choose == '0':
 

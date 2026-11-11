@@ -10,3 +10,8 @@ def square(a, b):
     return a**b
 def notsquare(a, b):
     return round(a ** (1 / b))
+def factorial(d):
+    result = 1
+    for i in range(2, d + 1):
+        result *= i
+    return result
