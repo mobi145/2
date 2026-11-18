@@ -1,4 +1,5 @@
-import calc
+from module_1 import calc
+
 a=1
 b=1
 while True:
